@@ -1,0 +1,22 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #083b4c;
+}
+
+h1 {
+  color: white;
+}
+
+.container ul{
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1%;
+  list-style-type: none;
+}
+
+li{
+  width: calc(94% / 7);
+}
+
