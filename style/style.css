@@ -12,13 +12,14 @@ h1 {
 .container ul{
   display: flex;
   flex-flow: row wrap;
+  gap: 20px;
   list-style-type: none;
 }
 
 li{
   background-color: #1389b2;
-  padding: 30px;
-  margin: 10px;
+  width: calc((100% / 7) - 20px );
+  padding: 5% 0;
 }
 
 .Frizz{
@@ -27,5 +28,9 @@ li{
 
 .Buzz{
   background-color: #ffd166;
+}
+
+.FrizzBuzz{
+  background-color: #f0466f;
 }
 
