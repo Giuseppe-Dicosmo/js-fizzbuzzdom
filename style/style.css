@@ -12,11 +12,20 @@ h1 {
 .container ul{
   display: flex;
   flex-flow: row wrap;
-  gap: 1%;
   list-style-type: none;
 }
 
 li{
-  width: calc(94% / 7);
+  background-color: #1389b2;
+  padding: 30px;
+  margin: 10px;
+}
+
+.Frizz{
+  background-color: #0bd6a1;
+}
+
+.Buzz{
+  background-color: #ffd166;
 }
 
