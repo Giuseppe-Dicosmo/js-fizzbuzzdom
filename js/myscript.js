@@ -1,8 +1,10 @@
 for (let i = 1; i <= 100; i++) {
   console.log(i)
 
+
   let ul = document.getElementById('list');
   let li = document.createElement('li');
+  console.log(ul, li)
   li.innerHTML = `${i}`;
   ul.append(li);
 

@@ -12,13 +12,13 @@ h1 {
 .container ul{
   display: flex;
   flex-flow: row wrap;
-  gap: 20px;
   list-style-type: none;
+  gap: 20px;
 }
 
 li{
   background-color: #1389b2;
-  width: calc((100% / 7) - 20px );
+  width: calc((100% / 7) - 20px);
   padding: 5% 0;
 }
 
